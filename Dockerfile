@@ -26,7 +26,7 @@ RUN apt install dotnet-sdk-3.1 -y
 
 COPY ./ ./
 
-RUN dotnet restore
+#RUN dotnet restore
 
 RUN dotnet build
 
