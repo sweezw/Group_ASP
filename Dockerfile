@@ -28,7 +28,7 @@ COPY ./ ./
 
 
 
-RUN dotnet
+RUN dotnet build --no-restore
 
 EXPOSE 5000:5000
 
